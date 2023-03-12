@@ -1,8 +1,15 @@
-export default function digitalClock(btnStartClock, btnStopClock, btnStarAlarm, btnStopAlarm) {
+export default function digitalWatch(btnStartWatch, btnStopWatch, btnStarAlarm, btnStopAlarm) {
     const d = document;
     d.addEventListener('click', e => {
-        if(e.target.matches(btnStartClock)){
-
+        if(e.target.matches(btnStartWatch)){
+            
+            setInterval(() => {
+                const hour = new Date();
+                d.querySelector('.watch').textContent =  hour.toLocaleTimeString()
+                console.log(hour.toLocaleTimeString())
+            
+            }, 1000);
+            
         }
     })
 }
