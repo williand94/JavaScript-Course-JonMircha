@@ -5,7 +5,7 @@ const d = document;
 
 d.addEventListener('DOMContentLoaded', e => {
     hamburgerMenu(".hamburger",".nav",".nav__link");
-    digitalWatch('.btn-start-watch', 'btnStopWatch', 'btnStarAlarm', 'btnStopAlarm')
+    digitalWatch('.btn-start-watch', 'btnStopWatch', 'btnStarAlarm', 'btnStopAlarm');
 });
 
 //const $button = document.getElementById('hamburger__nav'),

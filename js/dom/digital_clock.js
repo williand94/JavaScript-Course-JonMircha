@@ -5,11 +5,9 @@ export default function digitalWatch(btnStartWatch, btnStopWatch, btnStarAlarm, 
             
             setInterval(() => {
                 const hour = new Date();
-                d.querySelector('.watch').textContent =  hour.toLocaleTimeString()
-                console.log(hour.toLocaleTimeString())
-            
+                d.querySelector('.watch').textContent =  hour.toLocaleTimeString();
+                console.log(hour.toLocaleTimeString());
             }, 1000);
-            
         }
     })
 }
