@@ -6,6 +6,7 @@ export default function digitalWatch(btnStartWatch, btnStopWatch, btnStarAlarm, 
             setInterval(() => {
                 const hour = new Date();
                 d.querySelector('.watch').textContent =  hour.toLocaleTimeString();
+                d.querySelector(btnStartWatch).setAttribute("disabled", "");
                 console.log(hour.toLocaleTimeString());
             }, 1000);
         }
