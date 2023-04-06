@@ -110,20 +110,39 @@
      /*Whatch's Styles */
 /* ------------------------------------- */
 .digital-watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 0 auto;
     width: 25rem;
     height: 10rem;
     padding: 1rem;
     background-color: #26282B;
+    border-radius: 1.5rem;
+}
+
+.digital-text{
+    color: #E4DCCF;
+    font-size: 1.7rem;
+    font-family: Tinos;
 }
 .watch{
     font-family: 'Tinos', serif;
     font-size: 2rem;
 }
+.buttons{
+    text-align: center;
+    padding: .5rem;
+}
 button{
     padding: .5rem;
     outline: none;
-    margin-top: 3.5rem;
     background-color: #FF8B13;
     border: 0;
+    border-radius: 2rem;
+    transition: all ease-in-out .5s;
+}
+button:hover{
+    background-color: #ff8d13a2;
+    cursor: pointer;
 }
