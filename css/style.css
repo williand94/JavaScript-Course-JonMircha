@@ -146,3 +146,22 @@ button:hover{
     background-color: #ff8d13a2;
     cursor: pointer;
 }
+
+/* ------------------------------------- */
+     /*Section two styles */
+/* ------------------------------------- */
+
+.table{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #000;
+}
+
+.ball{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #FCE22A;
+}
