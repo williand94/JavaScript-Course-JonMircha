@@ -17,7 +17,7 @@ export function moveBall(e, ball, table) {
           $limitBall = $ball.getBoundingClientRect(),
           $limitTable = $table.getBoundingClientRect();
 
-        console.log($limitBall,$limitTable);  
+        //console.log($limitBall,$limitTable);  
         switch (e.keyCode) {
         
         case 37:
