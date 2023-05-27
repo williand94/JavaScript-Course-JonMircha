@@ -15,7 +15,7 @@ export default function countDown(id, limitDate, message) {
 
         $countdown.innerHTML = `<h3> Less : ${days} days, ${hours} hours, ${minutes} minutes,
         and ${seconds} seconds </h3>`    
-        console.log(days, countdownDate, today, finalDate);
+        //console.log(days, countdownDate, today, finalDate);
 
         if (finalDate < 0) {
             clearInterval(countdownTempo)

@@ -23,6 +23,11 @@
     line-height: 4rem;
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .nav{
     position: fixed;
     top: 0;
@@ -164,4 +169,34 @@ button:hover{
     height: 5rem;
     border-radius: 50%;
     background-color: #FCE22A;
+}
+
+
+/* ------------------------------------- */
+     /*Scroll TOp button  */
+/* ------------------------------------- */
+.scroll-top-btn{
+    text-align: center;
+    line-height: 4rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: calc(6.5rem + 1vw);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #FCE22A;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-out; 
+}
+.scroll-top-btn:hover{
+    background-color: #26282B;
+    color: #FCE22A;
+    cursor: pointer;
+}
+
+.hidden{
+    opacity: 0;
+    visibility: hidden;
 }
