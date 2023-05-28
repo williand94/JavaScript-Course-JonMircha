@@ -21,6 +21,7 @@
     font-size: 2rem;
     text-align: center;
     line-height: 4rem;
+    color: #000;
 }
 
 .container{
@@ -173,15 +174,17 @@ button:hover{
 
 
 /* ------------------------------------- */
-     /*Scroll TOp button  */
+     /*Scroll TOp button 
+       Dark Mode  
+     */
 /* ------------------------------------- */
-.scroll-top-btn{
+.scroll-top-btn,
+.dark-theme-btn{
     text-align: center;
     line-height: 4rem;
     position: fixed;
     z-index: 999;
     bottom: 1vh;
-    right: calc(6.5rem + 1vw);
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -190,12 +193,22 @@ button:hover{
     font-weight: bold;
     transition: all .3s ease-out; 
 }
-.scroll-top-btn:hover{
+.scroll-top-btn{right: calc(6.5rem + 1vw);color: #000; }
+
+.dark-theme-btn{
+    line-height: 3rem;
+} 
+.scroll-top-btn:hover,
+.dark-theme-btn:hover{
     background-color: #26282B;
     color: #FCE22A;
     cursor: pointer;
 }
 
+.dark-mode{
+    background-color: #26282B;
+    color: #FCE22A;
+}
 .hidden{
     opacity: 0;
     visibility: hidden;
