@@ -11,17 +11,16 @@ d.addEventListener('DOMContentLoaded', e => {
     digitalWatch('.btn-start-watch', '.btn-stop-watch');
     soundAlarm('.btn-start-alarm', '.btn-stop-alarm');
     countDown('countdown','May 27, 2023','Happy Birthday Broth, God bless you my homie...🤞🏀');
-    scrollButton('.scroll-top-btn')
-    darkTheme('.dark-theme-btn','dark-mode');
+    scrollButton('.scroll-top-btn');
 });
 
 d.addEventListener('keydown',(e)=> {
     shortcuts(e);
     moveBall(e,'.ball','.table');
+    
+});
 
-})
+darkTheme('.dark-theme-btn','dark-mode');
 
 
-//const $button = document.getElementById('hamburger__nav'),
-      //$nav = document.querySelector('.nav');
   
